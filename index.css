@@ -1,0 +1,124 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #e1e8e9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  margin: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* position: absolute; */
+  /* top: 5vh;
+  left: 5vw; */
+  width: 80vw;
+  height: 80vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin-left: 5vw;
+  margin-right: 5vw; */
+  height: fit-content;
+  border: solid 2vmin #ffffff2f;
+  /* border-style: solid 2vmin #ffffff6f; */
+  /* border-image: linear-gradient(to right, #01c9ca7f 0%, #3886ff7f 100%); */
+  /* border-image-slice: 1;
+  border-image-width: 2vmin; */
+  /* padding-bottom: 10vh; */
+}
+
+.js-weather {
+  display: block;
+  font-size: 2vh;
+  font-weight: 550;
+}
+.js-place {
+  display: block;
+  font-size: 2vh;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 12vh;
+  left: 12vw;
+}
+
+header > img {
+  display: inline-block;
+  width: 5vh;
+}
+
+h1 {
+  color: white;
+  font-size: 10vh;
+  font-weight: 500;
+  transition: color 2s ease-in-out;
+  animation-name: titleAnimation;
+  animation-timing-function: ease;
+  animation-duration: 3s;
+  margin-bottom: 2vh;
+}
+h2 {
+  font-size: 4vh;
+  margin: 1vh;
+}
+
+.greeting,
+.form {
+  display: none;
+  font-size: 4vh;
+}
+
+.showing {
+  display: block;
+}
+form span {
+  display: block;
+  font-size: 4vh;
+}
+input {
+  display: block;
+  margin-top: 2vh;
+  border: unset;
+  border-bottom: 2px solid white;
+  background-color: unset;
+  text-align: center;
+  font-size: 4vh;
+  width: 10em;
+  color: whtie;
+}
+input::placeholder {
+  color: white;
+}
+input:focus {
+  color: white;
+  outline: none;
+}
+
+button {
+  border: unset;
+  background: unset;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
+  font-size: 3vh;
+}
